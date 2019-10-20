@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <pl.bclogic.pulsator4droid.library.PulsatorLayout
+            android:id="@+id/pulsator"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:pulse_color="#F7D348"
+            app:pulse_count="4"
+            app:pulse_duration="7000"
+            app:pulse_interpolator="Linear"
+            app:pulse_repeat="0"
+            app:pulse_startFromScratch="false"/>
+
+    </RelativeLayout>
+</layout>
